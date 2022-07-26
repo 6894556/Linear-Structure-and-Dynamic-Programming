@@ -11,7 +11,7 @@ f2 = open('sentidata.csv', 'r')
 rdr2 = csv.reader(f2)
 sentidata = []
 for row in rdr2:
-    sentidata.appned(row)
+    sentidata.append(row)
 f2.close()
 
 s = SentiAnalyzer()
